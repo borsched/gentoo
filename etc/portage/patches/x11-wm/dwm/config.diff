@@ -102,8 +102,8 @@ index 1c0b587..a691cee 100644
  	TAGKEYS(                        XK_9,                      8)
 -	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 +	/* { MODKEY|ShiftMask,             XK_q,      quit,           {0} }, */
-+	{ MODKEY,                       XK_w,       spawn,         SHCMD("firefox-bin")	},
-+	{ MODKEY,                       XK_e,       spawn,         SHCMD("brave-bin")	},
++	{ MODKEY,                       XK_w,       spawn,         SHCMD("firefox")},
++	{ MODKEY,                       XK_e,       spawn,         SHCMD("brave-browser-stable")},
 +	{ MODKEY,                       XK_p,       spawn,         SHCMD("pavucontrol")},
 +	{ MODKEY,                       XK_z,       spawn,         SHCMD(TERMINAL " -e ~/zoom-joiner/zoom.py")},
 +	{ ControlMask,                  XK_Print,   spawn,         SHCMD("flameshot gui")},
