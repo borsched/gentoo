@@ -29,3 +29,8 @@ dwm autostart:
 # dhcpcd
 https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD
 
+# obs
+I don't use NVENC because I have issues. My use flag is disabled and in `Settings/Output/Streaming/Encoder`, I have the Encoder as Software(x264). Quite frankly, I forgot what I messed around with but I just recall this not working properly or something.
+
+# miscellaneous
+Firefox has an issue of saving jpeg images as '.jpe' sometimes, so you can edit `/etc/mime.types`; find the line with `image/jpeg` and move `jpe` to the end. You can also rearrange jpeg and jpg in your preferred order. (https://bugs.archlinux.org/task/54977)
